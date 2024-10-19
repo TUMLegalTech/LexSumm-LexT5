@@ -23,6 +23,8 @@ We provide the pre-trained **LexT5** models, which can be fine-tuned for legal s
 
 ## Datasets
 
+### LexSumm
+
 The full **LexSumm** dataset, containing eight legal summarisation datasets from multiple jurisdictions, can be downloaded here:
 
 - **[Full LexSumm Dataset](https://huggingface.co/datasets/CJWeiss/LexSumm)**: Collection of all datasets below.
@@ -37,6 +39,29 @@ Each dataset adheres to the same format with columns: `input`, `output`, and `id
 - **[MultiLexSum-Long](https://huggingface.co/datasets/CJWeiss/multilong_id_rename)**: Multi-paragraph summaries of U.S. civil rights lawsuits.
 - **[MultiLexSum-Short](https://huggingface.co/datasets/CJWeiss/multishort_id_rename)**: Single-paragraph summaries of civil rights lawsuits.
 - **[MultiLexSum-Tiny](https://huggingface.co/datasets/CJWeiss/multitiny_id_rename)**: One-sentence summaries of civil rights lawsuits in Twitter-like format.
+
+### ZeroLexSumm
+
+The full zero-shot dataset: **ZeroLexSumm** can be downloaded here:
+
+- **[Full ZeroLexSumm Dataset](https://huggingface.co/datasets/CJWeiss/ZeroLexSumm)**: Collection of all zero-shot datasets below.
+
+All ZeroLexSumm datasets are derived from the respective LexSumm datasets and adhere to consistent format with columns: `input`, `output`, `id`, `cluster`, `old_id` and `length`. 
+
+- `cluster`: which inout bracket 0-8k, 8k-16k, 16k+ and longest
+- `old_id`: ID in the LexSumm dataset
+- `length`: length of the input
+
+Here you can find the seperate datasets included **ZeroLexSumm**:
+
+- **[BillSum](https://huggingface.co/datasets/CJWeiss/LGZ_billsum)**
+- **[InAbs](https://huggingface.co/datasets/CJWeiss/LGZ_inabs)**
+- **[UKAbs](https://huggingface.co/datasets/CJWeiss/LGZ_ukabs)**
+- **[EurLexSum](https://huggingface.co/datasets/CJWeiss/LGZ_eurlexsum)**
+- **[GovReport](https://huggingface.co/datasets/CJWeiss/LGZ_govreport)**
+- **[MultiLexSum-Long](https://huggingface.co/datasets/CJWeiss/LGZ_multilong)**
+- **[MultiLexSum-Short](https://huggingface.co/datasets/CJWeiss/LGZ_multishort)**
+- **[MultiLexSum-Tiny](https://huggingface.co/datasets/CJWeiss/LGZ_multitiny)**
 
 ## Citation
 
