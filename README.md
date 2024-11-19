@@ -67,16 +67,15 @@ Here you can find the seperate datasets included **ZeroLexSumm**:
 
 If you use LexT5 or LexSumm in your research or application, please cite our paper:
 
+```bibtex
 @inproceedings{t-y-s-s-etal-2024-lexsumm,
-    title = "{L}ex{S}umm and {L}ex{T}5: Benchmarking and Modeling Legal Summarization Tasks in {E}nglish",
-    author = "T.y.s.s, Santosh  and
-      Weiss, Cornelius  and
-      Grabmair, Matthias",
-    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2024",
-    month = nov,
-    year = "2024",
-    address = "Miami, FL, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.nllp-1.35",
-    pages = "381--403",
+  title = "{L}ex{S}umm and {L}ex{T}5: Benchmarking and Modeling Legal Summarization Tasks in {E}nglish",
+  author = "T.y.s.s, Santosh and Weiss, Cornelius and Grabmair, Matthias",
+  booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2024",
+  month = nov,
+  year = "2024",
+  address = "Miami, FL, USA",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2024.nllp-1.35",
+  pages = "381--403",
 }
